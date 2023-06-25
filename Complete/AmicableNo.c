@@ -14,11 +14,13 @@ int sum_factors(int n)
 }
 int main()
 {
+    //taking the input
     int n1,n2;
     printf("Enter first number: ");
     scanf("%d", &n1);
     printf("Enter second number: ");
     scanf("%d", &n2);
+    //calling the function
     if(sum_factors(n1)==n2 && sum_factors(n2)==n1)
     {
         printf("%d & %d are Amicable numbers", n1, n2);
